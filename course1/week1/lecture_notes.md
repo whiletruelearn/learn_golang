@@ -12,10 +12,13 @@
 - ideas on machine code, assembly code , high level languages (HLL's) etc.
 - Go has garbage collection inbuilt, it is an efficient one and hence doesn't slow
 down much. 
+- Go is a good comporomise between compiled and interpreted language. Best of both worlds
 
 
 ### Object Oriented Programming
 
+- OOP can be also thought of  the idea of building a user defined type where 
+  data and code which are related are grouped together.
 - Go doesn't use the keyword `class` , but instead use `struct`
 - Structs don't have inheritance, constructors, generics.
 
@@ -26,6 +29,11 @@ down much.
 - `channels` are used to communicate between tasks.
 - `select` enables task synchronization.
 
+### Recommended Directory Structure
+
+- `src` => source files
+- `pkg` => packages
+- `bin` => executables
 
 ### Go Tool
 
